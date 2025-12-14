@@ -239,4 +239,136 @@
 		"Chaos - Jacaris, Divide",
 		
 		StageId_Soulless, 0
+	},
+	{ //StageId_Prey (Prey)
+		//Characters
+		{"\\CHAR\\BF.CHR;1",    FIXED_DEC(60,1),  FIXED_DEC(100,1), FIXED_DEC(1,1)},
+		{"\\CHAR\\DAD.CHR;1", FIXED_DEC(-120,1),  FIXED_DEC(100,1), FIXED_DEC(1,1)},
+		{"\\CHAR\\GF.CHR;1",     FIXED_DEC(0,1),  FIXED_DEC(-10,1), FIXED_DEC(1,1)},
+		
+		//Death
+		0,
+		
+		//Stage background
+		Back_Default_New,
+		
+		//Camera Offset (X, Y, Scale)
+		FIXED_DEC(0,1), FIXED_DEC(0,1), FIXED_DEC(1,1),
+		
+		//Song info
+		99, 9,
+		XA_Prey, 0,
+		"Prey",
+		
+		StageId_Prey, 0
+	},
+	{ //StageId_Fight_Or_Flight (Fight Or Flight)
+		//Characters
+		{"\\CHAR\\BF.CHR;1",    FIXED_DEC(60,1),  FIXED_DEC(100,1), FIXED_DEC(1,1)},
+		{"\\CHAR\\DAD.CHR;1", FIXED_DEC(-120,1),  FIXED_DEC(100,1), FIXED_DEC(1,1)},
+		{"\\CHAR\\GF.CHR;1",     FIXED_DEC(0,1),  FIXED_DEC(-10,1), FIXED_DEC(1,1)},
+		
+		//Death
+		0,
+		
+		//Stage background
+		Back_Default_New,
+		
+		//Camera Offset (X, Y, Scale)
+		FIXED_DEC(0,1), FIXED_DEC(0,1), FIXED_DEC(1,1),
+		
+		//Song info
+		99, 10,
+		XA_Fight_Or_Flight, 0,
+		"Fight Or Flight",
+		
+		StageId_Fight_Or_Flight, 0
+	},
+	{ //StageId_Round_A_Bout (Round-A-Bout)
+		//Characters
+		{"\\CHAR\\BF.CHR;1",    FIXED_DEC(60,1),  FIXED_DEC(100,1), FIXED_DEC(1,1)},
+		{"\\CHAR\\DAD.CHR;1", FIXED_DEC(-120,1),  FIXED_DEC(100,1), FIXED_DEC(1,1)},
+		{"\\CHAR\\GF.CHR;1",     FIXED_DEC(0,1),  FIXED_DEC(-10,1), FIXED_DEC(1,1)},
+		
+		//Death
+		0,
+		
+		//Stage background
+		Back_Default_New,
+		
+		//Camera Offset (X, Y, Scale)
+		FIXED_DEC(0,1), FIXED_DEC(0,1), FIXED_DEC(1,1),
+		
+		//Song info
+		99, 11,
+		XA_Round_A_Bout, 0,
+		"Round-A-Bout - SimplyCrispy",
+		
+		StageId_Round_A_Bout, 0
+	},
+	{ //StageId_Milk (Milk)
+		//Characters
+		{"\\CHAR\\BF.CHR;1",    FIXED_DEC(60,1),  FIXED_DEC(100,1), FIXED_DEC(1,1)},
+		{"\\CHAR\\DAD.CHR;1", FIXED_DEC(-120,1),  FIXED_DEC(100,1), FIXED_DEC(1,1)},
+		{"\\CHAR\\GF.CHR;1",     FIXED_DEC(0,1),  FIXED_DEC(-10,1), FIXED_DEC(1,1)},
+		
+		//Death
+		0,
+		
+		//Stage background
+		Back_Default_New,
+		
+		//Camera Offset (X, Y, Scale)
+		FIXED_DEC(0,1), FIXED_DEC(0,1), FIXED_DEC(1,1),
+		
+		//Song info
+		99, 12,
+		XA_Milk, 0,
+		"Milk - Squeak",
+		
+		StageId_Milk, 0
+	},
+	{ //StageId_TooFest (Too Fest)
+		//Characters
+		{"\\CHAR\\BF.CHR;1",    FIXED_DEC(60,1),  FIXED_DEC(100,1), FIXED_DEC(1,1)},
+		{"\\CHAR\\DAD.CHR;1", FIXED_DEC(-120,1),  FIXED_DEC(100,1), FIXED_DEC(1,1)},
+		{"\\CHAR\\GF.CHR;1",     FIXED_DEC(0,1),  FIXED_DEC(-10,1), FIXED_DEC(1,1)},
+		
+		//Death
+		0,
+		
+		//Stage background
+		Back_Default_New,
+		
+		//Camera Offset (X, Y, Scale)
+		FIXED_DEC(0,1), FIXED_DEC(0,1), FIXED_DEC(1,1),
+		
+		//Song info
+		99, 13,
+		XA_TooFest, 0,
+		"Too Fest - punkett",
+		
+		StageId_TooFest, 0
+	},
+	{ //StageId_Personel (Personel)
+		//Characters
+		{"\\CHAR\\BF.CHR;1",    FIXED_DEC(60,1),  FIXED_DEC(100,1), FIXED_DEC(1,1)},
+		{"\\CHAR\\DAD.CHR;1", FIXED_DEC(-120,1),  FIXED_DEC(100,1), FIXED_DEC(1,1)},
+		{"\\CHAR\\GF.CHR;1",     FIXED_DEC(0,1),  FIXED_DEC(-10,1), FIXED_DEC(1,1)},
+		
+		//Death
+		0,
+		
+		//Stage background
+		Back_Default_New,
+		
+		//Camera Offset (X, Y, Scale)
+		FIXED_DEC(0,1), FIXED_DEC(0,1), FIXED_DEC(1,1),
+		
+		//Song info
+		99, 14,
+		XA_Personel, 0,
+		"Personel - Adam McHummus, JesterFrog",
+		
+		StageId_Personel, 0
 	}
