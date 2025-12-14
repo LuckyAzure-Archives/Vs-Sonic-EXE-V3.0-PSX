@@ -1,0 +1,4 @@
+1 xa too-slow/Merged.xa 1 0
+1 xa too-slow/Inst.xa 1 1
+1 xa too-slow-encore/Merged.xa 1 2
+1 xa too-slow-encore/Inst.xa 1 3

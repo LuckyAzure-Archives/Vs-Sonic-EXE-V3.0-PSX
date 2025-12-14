@@ -1,7 +1,17 @@
 all: \
 	iso/music/menu.xa \
-	iso/songs/1.xa \
-	iso/songs/2.xa \
+	iso/songs/tooslow.xa \
+	iso/songs/youcantrun.xa \
+	iso/songs/tripletro.xa \
+	iso/songs/endless.xa \
+	iso/songs/cyc-exec.xa \
+	iso/songs/sun-soul.xa \
+	iso/songs/chaos.xa \
+	iso/songs/pry-fof.xa \
+	iso/songs/rab.xa \
+	iso/songs/milk.xa \
+	iso/songs/toofest.xa \
+	iso/songs/personel.xa \
 
 # XA converts
 iso/%.xa: iso/%.ogg
@@ -11,10 +21,38 @@ iso/%.xa:
 	tools/xainterleave/xainterleave $@ $^
 
 # Menu
-iso/music/menu.xa: iso/music/freakymenu.xa iso/music/gameover.xa
+iso/music/menu.xa: iso/music/menuscreen.xa iso/music/gameover.xa iso/music/storymode.xa
 
-# 1
-iso/songs/1.xa: iso/songs/bopeebo/Merged.xa iso/songs/bopeebo/Inst.xa iso/songs/fresh/Merged.xa iso/songs/fresh/Inst.xa
+# Too Slow
+iso/songs/tooslow.xa: iso/songs/too-slow/Inst.xa iso/songs/too-slow/Merged.xa iso/songs/too-slow-encore/Inst.xa iso/songs/too-slow-encore/Merged.xa
+# You Can't Run
+iso/songs/youcantrun.xa: iso/songs/you-cant-run/Inst.xa iso/songs/you-cant-run/Merged.xa
+# Triple Trouble
+iso/songs/tripletro.xa: iso/songs/triple-trouble/Inst.xa iso/songs/triple-trouble/Merged.xa
 
-# 2
-iso/songs/2.xa: iso/songs/dadbattle/Merged.xa iso/songs/dadbattle/Inst.xa iso/songs/tutorial/Inst.xa
+# Endless  Endless OG
+iso/songs/endless.xa: iso/songs/endless/Inst.xa iso/songs/endless/Merged.xa iso/songs/endless-og/Inst.xa iso/songs/endless-og/Merged.xa
+
+# Cycles  Execution
+iso/songs/cyc-exec.xa: iso/songs/cycles/Inst.xa iso/songs/cycles/Merged.xa iso/songs/execution/Inst.xa iso/songs/execution/Merged.xa
+
+# Sunshine  Soulless
+iso/songs/sun-soul.xa: iso/songs/sunshine/Inst.xa iso/songs/sunshine/Merged.xa iso/songs/soulless/Inst.xa iso/songs/soulless/Merged.xa
+
+# Chaos
+iso/songs/chaos.xa: iso/songs/chaos/Inst.xa iso/songs/chaos/Merged.xa
+
+# Prey  Fight or Flight
+iso/songs/pry-fof.xa: iso/songs/prey/Inst.xa iso/songs/prey/Merged.xa iso/songs/fight-or-flight/Inst.xa iso/songs/fight-or-flight/Merged.xa
+
+# Round-A-Bout
+iso/songs/rab.xa: iso/songs/round-a-bout/Inst.xa iso/songs/round-a-bout/Merged.xa 
+
+# Milk
+iso/songs/milk.xa: iso/songs/milk/Inst.xa iso/songs/milk/Merged.xa
+
+# Too Fest
+iso/songs/toofest.xa: iso/songs/too-fest/Inst.xa iso/songs/too-fest/Merged.xa
+
+# Personel
+iso/songs/personel.xa: iso/songs/personel/Inst.xa iso/songs/personel/Merged.xa

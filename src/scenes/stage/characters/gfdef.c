@@ -13,10 +13,6 @@ void GirlFriend_Generic_Tick(Character *character)
         {
             switch (stage.stage_id)
             {
-                case StageId_1_4: //Tutorial cheer
-                    if (stage.song_step > 64 && stage.song_step < 192 && (stage.song_step & 0x3F) == 60)
-                        character->set_anim(character, CharAnim_UpAlt);
-                    break;
                 default:
                     break;
             }

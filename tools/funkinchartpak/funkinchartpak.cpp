@@ -128,15 +128,20 @@ int main(int argc, char *argv[])
 		{
 			//Push main note
 			Note new_note;
+			
+			//invalid number
+			if (j[1] < 0)
+				continue;
+			
 			int sustain = (int)PosRound(j[2], step_crochet) - 1;
 			new_note.pos = (step_base * 12) + PosRound(((double)j[0] - milli_base) * 12.0, step_crochet);
 			new_note.type = (uint8_t)j[1] & (3 | NOTE_FLAG_OPPONENT);
 			if (is_opponent)
 				new_note.type ^= NOTE_FLAG_OPPONENT;
-			if (j[3] == true)
-				new_note.type |= NOTE_FLAG_ALT_ANIM;
-			else if ((new_note.type & NOTE_FLAG_OPPONENT) && is_alt)
-				new_note.type |= NOTE_FLAG_ALT_ANIM;
+			//if (j[3] == true)
+			//	new_note.type |= NOTE_FLAG_ALT_ANIM;
+			//else if ((new_note.type & NOTE_FLAG_OPPONENT) && is_alt)
+			//	new_note.type |= NOTE_FLAG_ALT_ANIM;
 			if (sustain >= 0)
 				new_note.type |= NOTE_FLAG_SUSTAIN_END;
 			

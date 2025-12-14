@@ -27,16 +27,41 @@
 //Stage enums
 typedef enum
 {
-	StageId_1_1,
-	StageId_1_2,
-	StageId_1_3,
-	StageId_1_4,
-	StageId_1_5,
+	//Story Songs
+	StageId_Story_1,
+	StageId_Story_2,
+	StageId_Story_3,
+	
+	//Story Encore Songs
+	StageId_Encore_1,
+	
+	//Free Play Songs
+	StageId_EndlessUS,
+	StageId_EndlessOG,
+	
+	StageId_Cycles,
+	StageId_Execution,
+	
+	StageId_Sunshine,
+	StageId_Soulless,
+	
+	StageId_Chaos,
+	
+	StageId_Prey,
+	StageId_Fight_Or_Flight,
+	
+	StageId_Round_A_Bout,
+	
+	StageId_Milk,
+	
+	StageId_TooFest,
+	
+	StageId_Personel,
 	
 	StageId_Max
 } StageId;
 
-#define StageId_LastVanilla StageId_1_5
+#define StageId_LastVanilla StageId_Story_3
 
 typedef enum
 {

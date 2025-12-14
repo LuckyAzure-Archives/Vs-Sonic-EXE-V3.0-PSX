@@ -542,8 +542,8 @@ void Menu_Tick(void)
 				const char *name;
 				const char *tracks[3];
 			} menu_options[] = {
-				{NULL, StageId_1_4, "TUTORIAL", {"TUTORIAL", NULL, NULL}},
-				{"1", StageId_1_1, "DADDY DEAREST", {"BOPEEBO", "FRESH", "DADBATTLE"}}
+				{NULL, StageId_Story_1, "TUTORIAL", {"TUTORIAL", NULL, NULL}},
+				{"1", StageId_Story_1, "DADDY DEAREST", {"BOPEEBO", "FRESH", "DADBATTLE"}}
 			};
 			
 			//Initialize page
@@ -671,10 +671,32 @@ void Menu_Tick(void)
 				u32 col;
 				const char *text;
 			} menu_options[] = {
-				{{174,0,34,30}, StageId_1_4, 0xFFA5004A, "TUTORIAL"},
-				{{140,0,33,39}, StageId_1_1, 0xFFAF66CE, "BOPEEBO"},
-				{{140,0,33,39}, StageId_1_2, 0xFFAF66CE, "FRESH"},
-				{{140,0,33,39}, StageId_1_3, 0xFFAF66CE, "DADBATTLE"}
+				{{140,0,33,39}, StageId_Story_1, 0xFF9271FD, "TOO SLOW"},
+				{{140,0,33,39}, StageId_Story_2, 0xFF9271FD, "YOU CAN'T RUN"},
+				{{140,0,33,39}, StageId_Story_3, 0xFF9271FD, "TRIPLE TROUBLE"},
+				
+				{{140,0,33,39}, StageId_Encore_1, 0xFF9271FD, "TOO SLOW ENCORE"},
+				
+				{{140,0,33,39}, StageId_EndlessUS, 0xFF9271FD, "ENDLESS"},
+				{{140,0,33,39}, StageId_EndlessOG, 0xFF9271FD, "ENDLESS OG"},
+				
+				{{140,0,33,39}, StageId_Cycles, 0xFF9271FD, "CYCLES"},
+				
+				{{140,0,33,39}, StageId_Sunshine, 0xFF9271FD, "SUNSHINE"},
+				{{140,0,33,39}, StageId_Soulless, 0xFF9271FD, "SOULLESS"},
+				
+				{{140,0,33,39}, StageId_Chaos, 0xFF9271FD, "CHAOS"},
+				
+				{{140,0,33,39}, StageId_Prey, 0xFF9271FD, "PREY"},
+				{{140,0,33,39}, StageId_Fight_Or_Flight, 0xFF9271FD, "FIGHT OR FLIGHT"},
+				
+				{{140,0,33,39}, StageId_Round_A_Bout, 0xFF9271FD, "ROUND-A-BOUT"},
+				
+				{{140,0,33,39}, StageId_Milk, 0xFF9271FD, "MILK"},
+				
+				{{140,0,33,39}, StageId_TooFest, 0xFF9271FD, "TOO FEST"},
+				
+				{{140,0,33,39}, StageId_Personel, 0xFF9271FD, "PERSONEL"},
 			};
 			
 			//Initialize page

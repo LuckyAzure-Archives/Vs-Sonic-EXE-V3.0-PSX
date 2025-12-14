@@ -68,22 +68,62 @@
 			
 			<!-- Songs -->
 			<dir name = "songs">
-				<!-- Bopeebo charts -->
-				<file name = "1.1e.cht" type = "data" source = "iso/songs/bopeebo/easy.cht"/>
-				<file name = "1.1n.cht" type = "data" source = "iso/songs/bopeebo/normal.cht"/>
-				<file name = "1.1h.cht" type = "data" source = "iso/songs/bopeebo/hard.cht"/>
-				<!-- Fresh charts -->
-				<file name = "1.2e.cht" type = "data" source = "iso/songs/fresh/easy.cht"/>
-				<file name = "1.2n.cht" type = "data" source = "iso/songs/fresh/normal.cht"/>
-				<file name = "1.2h.cht" type = "data" source = "iso/songs/fresh/hard.cht"/>
-				<!-- Dadbattle charts -->
-				<file name = "1.3e.cht" type = "data" source = "iso/songs/dadbattle/easy.cht"/>
-				<file name = "1.3n.cht" type = "data" source = "iso/songs/dadbattle/normal.cht"/>
-				<file name = "1.3h.cht" type = "data" source = "iso/songs/dadbattle/hard.cht"/>
-				<!-- Tutorial charts -->
-				<file name = "1.4e.cht" type = "data" source = "iso/songs/tutorial/easy.cht"/>
-				<file name = "1.4n.cht" type = "data" source = "iso/songs/tutorial/normal.cht"/>
-				<file name = "1.4h.cht" type = "data" source = "iso/songs/tutorial/hard.cht"/>
+				<!-- Story Mode -->
+				
+				<!-- Too Slow -->
+				<file name = "1.1h.cht" type = "data" source = "iso/songs/too-slow/too-slow-hard.cht"/>
+				<!-- You Can't Run -->
+				<file name = "1.2h.cht" type = "data" source = "iso/songs/you-cant-run/you-cant-run.cht"/>
+				<!-- Triple Trouble -->
+				<file name = "1.3h.cht" type = "data" source = "iso/songs/triple-trouble/triple-trouble.cht"/>
+				
+				
+				<!-- Story Mode Encore -->
+				
+				<!-- Too Slow -->
+				<file name = "2.1h.cht" type = "data" source = "iso/songs/too-slow-encore/too-slow-encore.cht"/>
+				<!-- You Can't Run -->
+				<!-- (not exist) -->
+				<!-- Triple Trouble -->
+				<!-- (not exist) -->
+				
+				
+				<!-- Free Play -->
+				
+				<!-- Endless -->
+				<file name = "99.1h.cht" type = "data" source = "iso/songs/endless/endless.cht"/>
+				<!-- Endless OG -->
+				<file name = "99.2h.cht" type = "data" source = "iso/songs/endless-og/endless-og.cht"/>
+				
+				<!-- Cycles -->
+				<file name = "99.4h.cht" type = "data" source = "iso/songs/cycles/cycles.cht"/>
+				<!-- Execution -->
+				<file name = "99.5h.cht" type = "data" source = "iso/songs/execution/execution.cht"/>
+				
+				<!-- Sunshine -->
+                <file name = "99.6h.cht" type = "data" source = "iso/songs/sunshine/sunshine.cht"/>
+				<!-- Soulless -->
+                <file name = "99.7h.cht" type = "data" source = "iso/songs/soulless/soulless.cht"/>
+				
+				<!-- Chaos -->
+                <file name = "99.8h.cht" type = "data" source = "iso/songs/chaos/chaos.cht"/>
+				
+				<!-- Prey -->
+				<file name = "99.9h.cht" type = "data" source = "iso/songs/prey/prey.cht"/>
+				<!-- Fight or Flight -->
+                <file name = "99.10h.cht" type = "data" source = "iso/songs/fight-or-flight/fight-or-flight.cht"/>
+				
+				<!-- Round a Bout -->
+                <file name = "99.11h.cht" type = "data" source = "iso/songs/round-a-bout/round-a-bout.cht"/>
+				
+				<!-- Milk -->
+                <file name = "99.12h.cht" type = "data" source = "iso/songs/milk/milk.cht"/>
+				
+				<!-- Too Fest -->
+				<file name = "99.13h.cht" type = "data" source = "iso/songs/too-fest/too-fest.cht"/>
+				
+				<!-- Personel -->
+				<file name = "99.14h.cht" type = "data" source = "iso/songs/personel/personel.cht"/>
 			</dir>
 			
 			<!-- Music -->
@@ -91,13 +131,38 @@
 				<file name = "menu.xa" type = "xa" source = "iso/music/menu.xa"/>
 				<dummy sectors="128"/>
 				
-				<file name = "1.xa" type = "xa" source = "iso/songs/1.xa"/>
+				<file name = "tooslow.xa" type = "xa" source = "iso/songs/tooslow.xa"/>
+				<dummy sectors="128"/>
+				<file name = "ycr.xa" type = "xa" source = "iso/songs/youcantrun.xa"/>
+				<dummy sectors="128"/>
+				<file name = "tripletro.xa" type = "xa" source = "iso/songs/tripletro.xa"/>
 				<dummy sectors="128"/>
 				
-				<file name = "2.xa" type = "xa" source = "iso/songs/2.xa"/>
+				<file name = "endless.xa" type = "xa" source = "iso/songs/endless.xa"/>
 				<dummy sectors="128"/>
 				
-				<file name = "3.xa" type = "xa" source = "iso/songs/3.xa"/>
+				<file name = "cyc-exec.xa" type = "xa" source = "iso/songs/cyc-exec.xa"/>
+				<dummy sectors="128"/>
+				
+				<file name = "sun-soul.xa" type = "xa" source = "iso/songs/sun-soul.xa"/>
+				<dummy sectors="128"/>
+				
+				<file name = "chaos.xa" type = "xa" source = "iso/songs/chaos.xa"/>
+				<dummy sectors="128"/>
+				
+				<file name = "pry-fof.xa" type = "xa" source = "iso/songs/pry-fof.xa"/>
+				<dummy sectors="128"/>
+				
+				<file name = "rab.xa" type = "xa" source = "iso/songs/rab.xa"/>
+				<dummy sectors="128"/>
+				
+				<file name = "milk.xa" type = "xa" source = "iso/songs/milk.xa"/>
+				<dummy sectors="128"/>
+				
+				<file name = "toofest.xa" type = "xa" source = "iso/songs/toofest.xa"/>
+				<dummy sectors="128"/>
+				
+				<file name = "personel.xa" type = "xa" source = "iso/songs/personel.xa"/>
 				<dummy sectors="128"/>
 			</dir>
 			
